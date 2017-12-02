@@ -2,5 +2,6 @@ mechanize
 bs4
 html2text
 requests
+lxml
 Flask
 gunicorn

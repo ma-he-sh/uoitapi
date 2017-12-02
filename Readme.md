@@ -4,9 +4,11 @@
 ## DEMO
 http://159.203.34.18:5000
 
+```
 Fall    :  201709 => yyyy09   
 Winter  :  201701 => yyyy01
 Spring  :  201705 => yyyy05
+```
 
 http://159.203.34.18:5000/api-sch?user=100XXXXXX&pass=YOURPASSWORD&date=YYYYMM
 

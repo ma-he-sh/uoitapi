@@ -1,0 +1,86 @@
+@charset "UTF-8";
+
+
+html,
+body {
+    color: #203442;
+    margin: 0;
+}
+
+input,
+button {
+    outline: none;
+}
+
+
+/* scroll bar =========================*/
+
+::-webkit-scrollbar {
+    width: 4px;
+    background-color: rgba(238, 238, 238, 0.1);
+}
+
+::-webkit-scrollbar-track {
+    width: 4px;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(53, 92, 125, 0.5);
+}
+
+::-webkit-scrollbar-track-piece {
+    background-color: rgba(238, 238, 238, 0.1);
+}
+
+::-webkit-scrollbar-corner {
+    background-color: rgba(238, 238, 238, 0.8);
+}
+
+input,
+button,
+a {
+    font-family: 'Titillium Web', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: #2196f3;
+    /*rgba(0, 0, 0, 0.87)*/
+}
+
+light-txt {
+    color: #2196F3 !important;
+}
+
+.red-color {
+    color: #FD563F !important;
+}
+
+red-txt {
+    color: #F15843 !important;
+}
+
+green-txt {
+    color: #1cd017 !important;
+}
+
+.transition {
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+}
+
+table {
+    width: 100%;
+}
+
+img {
+    width: 100% !important;
+    max-width: 600px !important;
+    height: auto!important;
+    display: block !important;
+    margin-left: auto !important;
+    margin-right: auto !important;
+}

@@ -1,0 +1,17 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+api_sch	../server.py	/^def api_sch():$/;"	kind:function	line:29
+app	../server.py	/^app = Flask(__name__)$/;"	kind:variable	line:6
+get_detsch	../scrape.py	/^def get_detsch(user_name, user_pass, strdate):$/;"	kind:function	line:77
+getinfo	../server.py	/^def getinfo():$/;"	kind:function	line:16
+index	../server.py	/^def index():$/;"	kind:function	line:12
+login	../scrape.py	/^def login(name, passw, date):$/;"	kind:function	line:16
+name	../server.py	/^name = 'index'$/;"	kind:variable	line:8
+not_found	../server.py	/^def not_found(error):$/;"	kind:function	line:43
+scrape.py	../scrape.py	1;"	kind:file	line:1
+server.py	../server.py	1;"	kind:file	line:1
+url	../scrape.py	/^url = 'https:\/\/uoit.ca\/mycampus\/'$/;"	kind:variable	line:13

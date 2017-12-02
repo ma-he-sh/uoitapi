@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        {{ name }}
+    </title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='app.css')}}">
+</head>
+
+<body>
+    <style>
+        .login_wrapper {
+            width: 300px;
+            height: auto;
+            padding: 5px;
+            box-sizing: border-box;
+            position: absolute;
+            top: 100px;
+            margin-left: auto;
+            margin-right: auto;
+            left: 0;
+            right: 0;
+        }
+    </style>
+    <div class="login_wrapper">
+        <form method="POST" action="/getinfo">
+            <input type="text" name="user" placeholder="student id">
+            <input type="password" name="pass" placeholder="password">
+            <p>Enter the date to extract: yyyy01 Winter, yyyy05 Spring and yyyy09 Fall</p>
+            <input type="text" name="date" value="201709">
+            <input type="submit" value="submit">
+        </form>
+    </div>
+</body>
+
+</html>

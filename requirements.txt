@@ -1,2 +1,6 @@
+mechanize
+cookielib
+bs4
+html2text
 Flask
 gunicorn
